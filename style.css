@@ -1,14 +1,29 @@
 @charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
 
 body {
     margin: 0px;
-    background-image: linear-gradient(to top, black,rgb(92, 235, 92));
-    background-repeat: no-repeat;
+    background-color: rgb(124, 250, 134);
 }
 header {
     margin: 0px;
+    padding: 10px 0px 0px 0px;
     text-align: center;
+    background-image: linear-gradient(to top, black,rgb(92, 235, 92));
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.432)
     ;
+}
+main {
+    margin: 0px auto;
+    padding:0px 1%;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.432);
 }
 header > menu {
     text-align: left;
@@ -22,6 +37,10 @@ menu > a {
     text-decoration: none;
     color: white;
 }
+menu {
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 0px;
+}
 menu > a:hover{
     background-color: rgb(96, 247, 104);
     border-radius: 5px;
@@ -29,4 +48,27 @@ menu > a:hover{
 h1.titulo {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
+}
+h1#histandroid {
+    margin-top: 0px;
+    font-family: android;
+    color: green;
+}
+h2 {
+    margin-top: 0px;
+    padding: 0px 1%;
+    font-family: android;
+    color: green;
+    background-color: rgb(103, 206, 103);
+}
+pre {
+    text-align: justify;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: unset;
+    color: green;
 }
