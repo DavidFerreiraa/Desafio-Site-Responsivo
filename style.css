@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(to top, black,rgb(92, 235, 92));
+    background-repeat: no-repeat;
+}
+header {
+    margin: 0px;
+    text-align: center;
+    ;
+}
+header > menu {
+    text-align: left;
+}
+header > aside {
+    color: rgb(206, 206, 206);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+menu > a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+menu > a:hover{
+    background-color: rgb(96, 247, 104);
+    border-radius: 5px;
+}
+h1.titulo {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
