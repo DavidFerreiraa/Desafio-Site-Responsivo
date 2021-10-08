@@ -8,22 +8,31 @@ body {
     margin: 0px;
     background-color: rgb(124, 250, 134);
 }
+iframe {
+    position: relative;
+    right: 2%;
+    left: auto;
+    height: 100%;
+    width: 102%;
+    border: 8px solid green;
+}
 header {
     margin: 0px;
     padding: 10px 0px 0px 0px;
     text-align: center;
-    background-image: linear-gradient(to top, black,rgb(92, 235, 92));
+    background-image: linear-gradient(to top, black,rgb(0, 206, 0));
     background-repeat: no-repeat;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.432)
     ;
 }
 main {
     margin: 0px auto;
-    padding:0px 1%;
+    padding:0px 1% 1% 1%;
     height: 100%;
     width: 50%;
     background-color: white;
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.432);
+    position: static;
 }
 header > menu {
     text-align: left;
@@ -61,14 +70,33 @@ h2 {
     color: green;
     background-color: rgb(103, 206, 103);
 }
-pre {
-    text-align: justify;
-}
-img {
-    height: 100%;
+article > img {
     width: 100%;
+    max-width: 100%;
+}
+article > img#bugdroid {
+    height: 100%;
+    width: 50%;
+    margin: 0px 0px 0px 25%;
+}
+strong {
+    color: green;
 }
 a {
     text-decoration: unset;
     color: green;
+}
+article > p {
+    text-align: justify;
+    text-indent: 1em;
+}
+nav {
+    height: 50%;
+    width: 100%;
+    background-color: greenyellow;
+    border-radius: 3%;
+}
+h3#TopoExtra {
+    background-color: green;
+    border-radius: 5% 5% 0% 0%;
 }
